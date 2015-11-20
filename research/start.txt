@@ -1,0 +1,26 @@
+===== Research =====
+
+After leaving high school in 2005, I had to choose a university course. There
+were three topics that I wanted to study:
+
+   * How a (human) brain works
+   * How a computer works
+   * How nature works
+
+It’s now ten years later, and I have mostly been busy with the latter two
+questions. Currently, my primary research interests are computational science
+and computational physics. I like to study systems that have some intrinsic
+complexity, not coming from boundary conditions or input data.
+
+==== PhD ====
+
+I'm currently working as a PhD student in the group [[http://cwimd.nl|Multiscale
+Dynamics]]((This is our official (CWI-hosted)
+[[https://www.cwi.nl/research-groups/Multiscale-Dynamics|webpage]])) at CWI.
+[[http://homepages.cwi.nl/~ebert/|Ute Ebert]] is my promotor / supervisor.
+The main topic of my PhD is the modeling of low-temperature discharges,
+specifically the modeling of
+[[http://en.wikipedia.org/wiki/Streamer_discharge|streamer discharges]], see also my [[publications:thesis|thesis]].
+
+My publications can be found [[publications:start|here]].
+

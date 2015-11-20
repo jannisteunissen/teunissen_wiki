@@ -1,0 +1,57 @@
+==== Reading a variable number of elements in Fortran ====
+
+The code below locates the content in an input string. The in-arguments are the line to be read in, the maximum number of entries and a string with delimiters. After performing the routine, the out-arguments are the number of entries found, and two list of indices: startIxs(i) holds the starting point of entry i in line, and endIxs(i) holds the end point.
+
+<code fortran>
+!> Routine to help read a variable number of entries from a line.
+! In arguments:
+!  line           The line from which we want to read
+!  delims         A string with delimiters. For example delims = " ,'"""//char(9)
+!                 " ,'"""//char(9) = space, comma, single/double quotation marks, tab
+!  nEntriesMax    Maximum number of entries to read in
+! 
+! Out arguments:
+!  nEntries       Number of entries found
+!  startIxs       On return, startIxs(i) holds the starting point of entry i
+!  endIxs         On return, endIxs(i) holds the end point of entry i
+subroutine splitLineByDelims(line, delims, nEntriesMax, nEntries, startIxs, endIxs)
+   character(len=*), intent(in)  :: line, delims
+   integer, intent(in)           :: nEntriesMax
+   integer, intent(inout)        :: nEntries, startIxs(nEntriesMax), endIxs(nEntriesMax)
+   
+   integer                       :: ix, prevIx
+   
+   prevIx   = 0
+   nEntries = 0
+   
+   do while (nEntries < nEntriesMax)
+      
+      ! Find the starting point of the next entry (a non-delimiter value)
+      ix                   = verify(line(prevIx+1:), delims)   
+      if (ix == 0) exit                      ! No more entries
+         
+      nEntries             = nEntries + 1
+      startIxs(nEntries)   = prevIx + ix     ! This is the absolute position in 'line'
+      
+      ! Get the end point of the current entry (next delimiter index minus one)
+      ix = scan(line(startIxs(nEntries)+1:), delims) - 1
+      
+      if (ix == -1) then                     ! If there is no last delimiter,
+         endIxs(nEntries)  = len(line)       ! the end of the line is the endpoint
+      else 
+         endIxs(nEntries)  = startIxs(nEntries) + ix
+      end if
+      
+      prevIx = endIxs(nEntries)              ! We continue to search from here
+   end do
+         
+end subroutine splitLineByDelims
+</code>
+
+The above routine makes it quite easy to read in a variable amount of numbers. In many cases, this can just be done with the example code below (error checking has been left out for simplicity).
+
+<code fortran>
+do n = 1, nEntries
+   read(line(startIxs(n):endIxs(n)), *) myArray(n)
+end do
+</code>

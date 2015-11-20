@@ -1,0 +1,3 @@
+<nspages blog -nbCol=1 -h1 -textPages="List of blog articles" -exclude:start>
+
+<nspages blog -simpleList -sortByDate -reverse -h1 -textPages="Articles by modification date" -exclude:start>

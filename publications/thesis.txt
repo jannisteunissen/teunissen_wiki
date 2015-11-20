@@ -1,0 +1,4 @@
+Click on the picture below to download my thesis. I still need to figure out how
+to reduce the file size while keeping a reasonable picture quality!
+
+[[http://teunissen.net/thesis/phd_thesis_teunissen_29_09_2015.pdf|{{ publications:thesis_picture_small.jpg }}]]

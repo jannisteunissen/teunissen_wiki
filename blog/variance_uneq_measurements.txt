@@ -1,0 +1,25 @@
+====== Variance of averaged measurements of unequal size ======
+
+Suppose that we have a random variable $X$ that we can only take averaged samples from. This means we cannot directly obtain a sample $X_i$, but only a sample of the mean of $k$ $X_i$'s. To complicate things, $k$ varies uncontrollably with each measurement. How do we estimate the variance of the original variable $\mathrm{Var}(X)$?
+
+Call the averaged samples we obtain $S_{k_i}$, where $k_i$ denotes the number of $X$'s that have been averaged. Then we have for a fixed value of $k_i$ (see e.g. [[http://en.wikipedia.org/wiki/Variance#Sum_of_uncorrelated_variables_.28Bienaym.C3.A9_formula.29|this]]):
+
+$$\mathrm{Var}(S_{k_i}) = \langle(S_{k_i} - \langle S_{k_i} \rangle)^2\rangle = \langle(S_{k_i} - \langle X \rangle)^2\rangle = \frac{\mathrm{Var}(X)}{k_i},$$
+
+where $\langle\rangle$ indicates the expectation value and we somehow know $\langle X \rangle$, to avoid having to care about [[http://en.wikipedia.org/wiki/Bessel's_correction|Bessel's correction]].
+More generally, we have for all $k_i$
+$$\langle k_i(S_{k_i} - \langle X \rangle)^2\rangle = \mathrm{Var}(X).$$
+
+
+If we have $N$ random averaged samples $S_{k_1},\ S_{k_2},\ \ldots,\ S_{k_N}$, then
+$$
+\begin{align}
+& \langle k_1 (S_{k_1} - \langle X \rangle)^2 + k_2 (S_{k_2} - \langle X \rangle)^2 + ... + k_N (S_{k_N} - \langle X \rangle)^2\rangle\\
+=& \langle k_1 (S_{k_1} - \langle X \rangle)^2\rangle + \langle k_2 (S_{k_2} - \langle X \rangle)^2\rangle + \ldots + \langle k_N (S_{k_N} - \langle X \rangle)^2\rangle\\
+=& \mathrm{Var}(X) + \mathrm{Var}(X) + \ldots + \mathrm{Var}(X)\\
+=& N \cdot \mathrm{Var}(X).
+\end{align}
+$$
+
+In other words, the expectation value of every term $k_i (S_{k_i} - \langle X \rangle)^2$ is $\mathrm{Var}(X)$, so we can estimate $\mathrm{Var}(X)$ by computing
+$$\frac{1}{N} \sum_{i = 1}^{N} k_i (S_{k_i} - \langle X \rangle)^2.$$

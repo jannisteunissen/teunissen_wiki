@@ -1,0 +1,31 @@
+===== Internal procedures & OpenMP in Fortran =====
+
+Does the following (pseudo)code work?
+<code fortran>
+program test
+  ...
+contains
+
+subroutine a()
+  !$omp do
+  do i = 1, N
+    call b()
+  end do
+  !$omp end do
+end subroutine a
+
+subroutine b()
+  ...
+end subroutine b
+end program test
+</code>
+
+My experience with GFortran and ifort is that this can *sometimes* work, but
+often does not. Passing an internal procedures as an arguments inside an
+parallel loop is probably even less likely to work.
+
+==== Relevant links ====
+
+  * [[http://stackoverflow.com/questions/25628034/calling-an-internal-subroutine-inside-openmp-region]]
+  * [[https://software.intel.com/en-us/forums/intel-visual-fortran-compiler-for-windows/topic/543705]]
+  * [[https://software.intel.com/en-us/forums/intel-visual-fortran-compiler-for-windows/topic/364462]]

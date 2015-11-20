@@ -1,0 +1,22 @@
+===== Publications =====
+
+For my thesis, see [[thesis|this page]].
+
+==== List of published articles ====
+  * **Comparing plasma fluid models of different order for 1D streamer ionization fronts**\\ A.H. Markosyan, J. Teunissen, S. Dujko, and U. Ebert\\ Plasma Sources Sci. Technol. 24, 065002 (2015), [[http://dx.doi.org/10.1088/0963-0252/24/6/065002|doi]] [[http://homepages.cwi.nl/~ebert/2015-JPD-AramJannisSasha.pdf|pdf]].
+  * **Streamer discharges can move perpendicularly to the electric field**\\ S. Nijdam, E. Takahashi, J. Teunissen, U. Ebert\\ New J. Phys. 16, 103038 (2014), [[http://dx.doi.org/10.1088/1367-2630/16/10/103038|doi]] [[http://iopscience.iop.org/1367-2630/16/10/103038|Video abstract]] [[http://homepages.cwi.nl/~ebert/2014-NJP-SanderJannis.pdf|pdf]]
+  * **The inception of pulsed discharges in air: simulations in background fields above and below breakdown**\\ A.B. Sun, J. Teunissen, U. Ebert\\ J. Phys. D: Appl. Phys. 47, 445205 (2014), [[http://dx.doi.org/10.1088/0022-3727/47/44/445205|doi]] [[http://homepages.cwi.nl/~ebert/2014-JPD-AnbangJannis.pdf|pdf]]
+  * **A time scale for electrical screening in pulsed gas discharges**\\ J. Teunissen, A.B. Sun, U. Ebert\\ J. Phys. D: Appl. Phys. 47, 365203 (2014), [[http://dx.doi.org/10.1088/0022-3727/47/36/365203|doi]] [[http://homepages.cwi.nl/~ebert/2014-JPD-JannisAnbangScreening.pdf|pdf]]
+  * **Controlling the weights of simulation particles: adaptive particle management using k-d trees**\\ J. Teunissen and U. Ebert\\ J. Comput. Phys. 259, 318 (2014), [[http://dx.doi.org/10.1016/j.jcp.2013.12.005|doi]] [[http://homepages.cwi.nl/~ebert/JCPJannis2014.pdf|pdf]]
+  * **Why isolated streamer discharges hardly exist above the breakdown field in atmospheric air**\\ A.B. Sun, J. Teunissen and U. Ebert\\ Geophys. Res. Lett. 40, 2417 (2013), [[http://dx.doi.org/10.1002/grl.50457|doi]] [[http://homepages.cwi.nl/~ebert/GRL-AnbangJannis-2013.pdf|pdf]]
+  * **A comparison of 3D fluid, particle and hybrid model for negative streamers**\\ C. Li, J. Teunissen, M. Nool, W. Hundsdorfer, U. Ebert\\ Plasma Sources Sci. Technol. 21, 055019 (2012), [[http://dx.doi.org/10.1088/0963-0252/21/5/055019|doi]] [[http://homepages.cwi.nl/~ebert/PSST12-3DHyb.pdf|pdf]]
+
+==== Short articles ====
+  * **3D particle simulation of positive streamer inception from a needle electrode in supercritical nitrogen**\\ A.B. Sun, J. Teunissen, U. Ebert\\ IEEE Trans. Plasma Sci. 42, 2416-2417 (2014), [[http://dx.doi.org/10.1109/TPS.2014.2308724|doi]] [[http://homepages.cwi.nl/~ebert/2014-IEEE-AnbangJannis.pdf|pdf]]
+  * **Propagation of a positive streamer towards a dielectric tip in pure nitrogen and in air**\\ A. Dubinova, J. Teunissen, U. Ebert\\ IEEE Trans. Plasma Sci. 42 2392-2393 (2014), [[http://dx.doi.org/10.1109/TPS.2014.2360314|doi]] [[http://homepages.cwi.nl/~ebert/2014-IEEE-AnnaJannis.pdf|pdf]]
+
+==== Not yet published ====
+  * **Predicting head and neck cancer metastasis and disease-specific survival from MALDI-MSI data: feasible or not?**\\ N. Mascini, J. Teunissen, R. Noorlag, S. Willems, R. Heeren\\ //Submitted to Anal. and Bioanal. Chemistry//
+  * **Simulating the inception of nanosecond pulsed discharges in nitrogen/oxygen mixtures**\\ J. Teunissen, U. Ebert\\ //In preparation//
+  * **Afivo: a framework for finite volume simulations on adaptively refined quadtree and octree grids**\\ J. Teunissen, U. Ebert\\ //In preparation//
+  * **A Monte Carlo approach for photoionization in discharge simulations**\\ J. Teunissen, U. Ebert\\ //In preparation//

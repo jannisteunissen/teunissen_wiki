@@ -1,0 +1,8 @@
+~~NOCACHE~~
+  * [[start|Home]]
+  * [[blog:start|Blog]]
+  * [[jannis:start|About me]]
+  * [[research:start|Research]]
+  * [[projects:start|Projects]]
+  * [[publications:start|Publications]]
+  * [[contact:start|Contact]]

@@ -1,0 +1,26 @@
+===== My setup =====
+
+==== Desktop ====
+
+^ Decription ^ Choice ^
+| Operating system | GNU/Linux |
+| Distribution | [[https://www.debian.org/|Debian (Jessie)]] |
+| Window manager | [[http://www.xfce.org|XFCE]] |
+| Editor | [[http://www.gnu.org/software/emacs/|Emacs]] |
+| E-mail client | [[http://www.djcbsoftware.nl/code/mu/mu4e.html|mu4e]] |
+
+==== Internet things ====
+
+^ Decription ^ Choice ^
+| Site | [[https://www.dokuwiki.org/|Dokuwiki]] |
+| Webserver | [[https://www.leaseweb.com/|Leaseweb VPS]] |
+| "Cloud" | [[https://owncloud.org/|Owncloud]] |
+| Mailhost | [[http://www.fastmail.com/?STKI=14279429|Fastmail]] |
+
+==== Keyboard ====
+
+At home, I use a
+[[http://gaming.coolermaster.com/en/products/keyboards/tk_stealth/|QuickFire TK Stealth Cherry Brown]]
+keyboard, using the [[http://colemak.com/|Colemak]] layout (but with Caps Lock as
+Ctrl).
+{{ http://colemak.com/wiki/images/8/80/Colemak_layout_2.png |Colemak layout}}

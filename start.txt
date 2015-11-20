@@ -1,0 +1,9 @@
+==== Welcome ====
+
+This is the personal website of Jannis Teunissen. Please have a look at the menu
+on the left, there you can find more information about my
+[[research:start|research]], [[projects:start|projects]],
+[[publications:start|publications]]. There are also some posts on my
+[[blog:start|blog]].
+
+A short bio can be found [[jannis:start|on this page]].

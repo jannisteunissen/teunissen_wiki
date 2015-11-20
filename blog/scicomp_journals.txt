@@ -1,0 +1,22 @@
+===== Scientific Computing Journals =====
+
+This mostly serves as a list for myself, but perhaps it can also be useful for
+others. Impact factors are given for 2014, if available. Fees for open acces are
+also listed.
+
+An excellent list of journals in which you can publish software can be found [[http://www.software.ac.uk/resources/guides/which-journals-should-i-publish-my-software|here]].
+
+==== Mixed access ====
+
+  * [[http://www.journals.elsevier.com/computer-physics-communications/|Computer Physics Communications]] (Elsevier, 3.1)\\ Fee: 2400\$
+  * [[http://www.journals.elsevier.com/journal-of-computational-physics/|Journal of Computational Physics]] (Elsevier, 2.4)\\ Fee: 2400\$
+  * [[http://epubs.siam.org/journal/sjoce3|Siam Journal on Scientific Computing]] (1.9)\\ Fee: 2500\$
+  * [[http://www.global-sci.com/|Communications in Computational Physics]] (1.9)\\ Fee: 1600\$
+  * [[http://www.springer.com/mathematics/computational+science+%26+engineering/journal/10915|Journal of Scientific Computing]] (Springer, 1.7)\\ Fee: 3000\$
+  * [[http://www.journals.elsevier.com/journal-of-computational-science/|Journal of Computational Science]] (Elsevier, 1.2)\\ Fee: 2400\$
+
+==== Open access ====
+
+  * [[http://www.mdpi.com/journal/computation|Computation]]\\ Fee: 0 -- 250 CHF
+  * [[http://openresearchsoftware.metajnl.com|Journal of Open Research Software]]\\ Fee: 100 -- 300 pound
+  * [[http://www.journals.elsevier.com/softwarex/|SoftwareX]] (Elsevier)\\ Fee: 500\$

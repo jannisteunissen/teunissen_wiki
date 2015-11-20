@@ -1,0 +1,112 @@
+===== C vs Fortran for scientific computing =====
+
+When I tell people that I have used Fortran for a project, they are often
+surprised. One of the reasons is probably that they are used to Fortran 77,
+which is not all that user-friendly by today's standards.
+
+However, Fortran has seen quite active development over the years, there's
+Fortran 90, 95, 2003, 2008 and even 2011. The change from F77 to F95 was
+probably the most drastic one. Just to give you an idea: in the latest versions,
+you can create abstract objects (a virtual base class in C++), which shows how
+much has changed since F77 with its fixed-form source code.
+
+In any case, you might be wondering whether you should use C of Fortran for your
+next scientific computing project((There are of course other contenders, maybe
+I'll write something about those in the future)).
+
+==== Comparison per topic ====
+
+For each topic I'll give my opinion on the pros and cons of C and Fortran. They
+also get a score between ++ (very good) and -- (bad).
+
+==== Performance (C: ++, F: ++) ====
+
+I believe there is no (significant) difference in performance between the languages. If you know what you're doing, you can write equally fast code in both, and differences would arise mostly because of the compiler.
+
+Knowing what you're doing is actually quite difficult (in my opinion). You should be aware of things like:
+  * **[[wp>Pointer_aliasing]]** (mostly important for C)
+  * **Optimizations for unsigned integers** (because you don't have uints in Fortran, so i/2 will typically not be converted to a shift, whereas the compiler can do this automatically in C)
+  * **Inlining of code** (I guess that for most Fortran compilers, the code has to be in the same source file, whereas in C you would typically put such code in header files)
+  * **Efficiency of different types of array arguments** (relevant for Fortran, see for example this excellent [[https://software.intel.com/en-us/articles/fortran-array-data-and-arguments-and-vectorization|guide by Intel]])
+  * **Correct order of array indexing** (different for C and Fortran)
+
+This list contains just a few examples, there are of course many more things that you need to know to write efficient code.
+
+==== Ease of use (C:+/-, F:+) ====
+
+Ease of use is subjective. What you find easy depends probably mostly on what you're used to.
+
+However, there are some things that make Fortran easier to use for scientific
+computing. This shouldn't be surprising, because scientific computing is the
+purpose of Fortran, whereas C is a system's progamming language.
+
+Anyway, let's look at some examples of things that are easier in Fortran!
+
+=== Vector / matrix notation ===
+
+As an example, you can copy part of a matrix in Fortran like this:
+<code fortran>
+  A(1:5, :) = B(6:10, :)
+</code>
+
+There is also automatic broadcasting, so you can do things like this:
+<code fortran>
+  A(1:5, :) = 0
+</code>
+
+=== Bounds checking for arrays ===
+
+In Fortran, arrays typically have their size associated with them. Most of you
+probably know how many safety problems have been caused by null-terminated
+strings in C. Having the size of an array is safer and more convenient than not
+having it, because it allows you to check whether you go out of bounds.
+
+For example, you can enable run-time checks for out-of-bounds problems with
+**-fbounds-check** in gfortran. This also allows
+
+=== Built-in mathematical functions ===
+
+Fortran contains many functions that come in handy when doing calculations. For
+example:
+<code fortran>
+norm2 ! 2-norm
+hypot ! compute hypot
+matmul ! matrix multiplication
+bessel_j0 ! Bessel function of the first kind of order 0
+</code>
+
+A more complete list can be found
+[[https://gcc.gnu.org/onlinedocs/gfortran/Intrinsic-Procedures.html#Intrinsic-Procedures|here]].
+
+=== Elemental procedures ===
+
+In Fortran, you can define **elemental procedures**, which operate on arguments
+of any shape. The built-in function sin is elemental, but suppose you want to
+have a function that computes 1 - sin(x)^2:
+
+<code fortran>
+  elemental function my_sin(x) result(y)
+     real, intent(in) :: x
+     y = 1 - sin(x)**2
+  end function my_sin
+</code>
+
+This also demonstrates the use of intent(in).
+
+==== Libraries (Fortran: +/-, C: ++) ====
+
+With regards to libraries, one has to make a difference between numerical
+libraries and libraries specifically for scientific computing.
+
+Fortran has many libraries for scientific computing. Some of them are
+quite old though. For examples, such as LAPACK, have a look at
+[[http://netlib.org/]].
+
+On the other hand, C has been the main systems programming language for a long
+time. You therefore have acces to many more general purpose libraries. There is
+also no lack of scientific computing libraries for C.
+
+==== Backward compatibility (Fortran: ++, C: ++) ====
+
+I think that both languages do a great job of being backwards compatible. You can
+often compile code from 25+ years ago without problems.
