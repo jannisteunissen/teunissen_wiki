@@ -20,3 +20,7 @@ An excellent list of journals in which you can publish software can be found [[h
   * [[http://www.mdpi.com/journal/computation|Computation]]\\ Fee: 0 -- 250 CHF
   * [[http://openresearchsoftware.metajnl.com|Journal of Open Research Software]]\\ Fee: 100 -- 300 pound
   * [[http://www.journals.elsevier.com/softwarex/|SoftwareX]] (Elsevier)\\ Fee: 500\$
+
+==== Other links ====
+
+  * [[http://scicomp.stackexchange.com/questions/2868/alternatives-to-journal-of-computational-physics|Discussion on Computational Science Stackexchange]]

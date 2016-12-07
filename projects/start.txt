@@ -2,39 +2,23 @@
 
 Here is a list of projects that I'm involved with.
 
-==== AFiVO ====
+==== Simulation codes ====
 
-AFiVO stands for **//Adaptive Finite Volume Octree//**. From the
-[[https://github.com/jannisteunissen/afivo|Github page]]: "The goal of this
-project is to provide a framework for adaptive finite volume simulations, with a
-focus on simplicity and adaptive grid refinement." Documentation can be found
-[[http://cwimd.nl/doku.php?id=codes:afivo|here]].
+  * [[https://gitlab.com/mpi-amrvac/amrvac|MPI-AMRVAC]]
+  * [[https://gitlab.com/MD-CWI-NL/afivo|Afivo]]
+  * [[https://gitlab.com/MD-CWI-NL/afivo-streamer|Afivo-streamer]]
+  * [[https://gitlab.com/MD-CWI-NL/particle_swarm|Particle_swarm]]
+  * [[http://cwimd.nl/doku.php?id=codes:particle|pamdi3d]]
+  * [[https://github.com/jannisteunissen/streamer_1d|streamer_1d]]
 
-==== Pamdi3d ====
+==== Simulation utilities ====
 
-Pamdi3d stands for **//Particle Model Discharge 3D//**. It is precisely that: a
-particle model for 3D simulations of discharges. Specifically, we focus on the
-simulation of so-called streamer discharges. Documentation can be found
-[[http://cwimd.nl/doku.php?id=codes:particle|here]], the source code on
-this[[https://github.com/jannisteunissen/afivo|Github page]].
+  * [[https://github.com/jannisteunissen/lookup_table_fortran|lookup_table_fortran]]
+  * [[https://github.com/jannisteunissen/config_fortran|config_fortran]]
+  * [[https://github.com/jannisteunissen/morton_fortran|morton_fortran]]
+  * [[https://github.com/jannisteunissen/rng_fortran|rng_fortran]]
+  * [[https://github.com/jannisteunissen/xoroshiro128plus_fortran|xoroshiro128plus_fortran]]
 
-==== Monte-Carlo Particle swarm ====
+==== Other ====
 
-Using the basic particle module that is also used for pamdi3d, this is a simple
-implementation of a Boltzmann solver for electrons in gases. You can compute
-transport data like the electron mobility, diffusion coefficient and the
-ionization rate. The code can be found
-[[https://github.com/jannisteunissen/particle_swarm|here]].
-
-==== streamer_1d ====
-
-A simple code to run particle and fluid simulations for 1D "streamers" or
-ionization waves. Nice for comparing models. There isn't much documentation yet,
-but the code can be found
-[[https://github.com/jannisteunissen/streamer_1d|here]].
-
-==== DVVA website ====
-
-I'm the current maintainer of the [[http://dvva.nl|website of DVVA]], my
-football((The type of football where you put your //foot// against the
-//ball//)) club.
+  * [[http://dvva.nl|webmaster of DVVA]]

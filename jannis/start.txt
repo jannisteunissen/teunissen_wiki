@@ -1,13 +1,17 @@
 ===== About me =====
 
-Hi, I’m Jannis Teunissen.
-{{ jannis.jpg?100|That's me. Minnie from CWI took the picture}}
-I grew up in Amsterdam (The Netherlands), on the
-Niewendammerdijk. This street can still feel a bit like the countryside. In 1999
-I started to cross the IJ everyday, because I attended a secondary school in the
-city centre ([[wp>Barlaeus_Gymnasium|Barlaeus]]).
-After finishing in 2005, I did a bachelor in Physics and
-Astronomy at the [[wp>University_of_Amsterdam|University of Amsterdam]].
+Hi, I’m Jannis Teunissen. {{ jannis.jpg?100|That's me. Minnie from CWI took the
+picture}} You can find out more about my research [[research:start|here]], or
+read a short {{jannis:cv_english.pdf|resume}}.
+
+==== Brief biography ====
+
+I grew up in Amsterdam (The Netherlands), on the Nieuwendammerdijk, a
+street that feels a bit like the countryside. In 1999 I started to cross the IJ
+everyday, because I attended a secondary school in the city centre
+([[wp>Barlaeus_Gymnasium|Barlaeus]]). After finishing in 2005, I did a bachelor
+in Physics and Astronomy at the [[wp>University_of_Amsterdam|University of
+Amsterdam]].
 
 In 2008, I enrolled in a masters programme in theoretical physics, but after a
 few months I decided that this wasn’t what I was looking for. Later that year it
@@ -23,10 +27,13 @@ for much more creativity. Of course you can also be creative in theoretical
 physics, but most of the time you don’t come up with something that makes sense.
 
 So the next year (2009), I started a master in Computational Science at the
-University of Amsterdam. After finishing in 2011, I started a PhD at CWI in
-computational plasma physics, in the group of Ute Ebert.
+University of Amsterdam. After finishing in 2011, I did my PhD research at CWI
+in computational plasma physics, in the
+[[https://www.cwi.nl/research-groups/Multiscale-Dynamics|group]] of
+[[http://homepages.cwi.nl/~ebert/index.shtml|Ute Ebert]]. In 2015 I obtained my
+[[https://www.cwi.nl/news/2015/cum-laude-3d-modelling-of-streamers|PhD]], and
+I've stayed for a couple more months at CWI as a postdoc.
 
-At the moment, I’m still working on my PhD. You can find out more about my
-research [[research:start|here]], or read a short
-{{jannis:cv_english_06_2015.pdf|resume}}.
-
+Since July 2016, I'm working as a postdoc at the
+[[https://wis.kuleuven.be/CmPA|Centre for mathematical Plasma Astrophysics]] at
+the KU Leuven, in Belgium.

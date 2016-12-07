@@ -1,4 +1,13 @@
-Click on the picture below to download my thesis. I still need to figure out how
-to reduce the file size while keeping a reasonable picture quality!
+===== PhD thesis =====
 
-[[http://teunissen.net/thesis/phd_thesis_teunissen_29_09_2015.pdf|{{ publications:thesis_picture_small.jpg }}]]
+[[http://www.cwi.nl/news/2015/cum-laude-3d-modelling-of-streamers|I'm a doctor now!]]
+
+The main topic of my PhD was the modeling of low-temperature discharges,
+specifically the modeling of
+[[http://en.wikipedia.org/wiki/Streamer_discharge|streamer discharges]]. The
+picture below links to the repository of Eindhoven University of Technology,
+which contains a
+[[https://pure.tue.nl/ws/files/8728008/20151112_Teunissen.pdf|PDF of my
+thesis]].
+
+[[http://repository.tue.nl/801516|{{ publications:thesis_picture_small.jpg }}]]
